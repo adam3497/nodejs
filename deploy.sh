@@ -8,7 +8,7 @@ git fetch origin deployment
 git reset --hard origin/deployment
 
 # Instala las dependencias
-npm install
+#npm install
 
 # Reinicia el servicio
-systemctl restart hello-world
+sudo systemctl restart hello-world
